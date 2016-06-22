@@ -1,0 +1,11 @@
+clf;
+[aempty, mapempty]=imread('empty.gif');  aempty=ind2rgb(aempty, mapempty);
+emptyimg=image(aempty);
+axis([1 320 1 320], 'square');
+
+%for i=1:10
+%    emptyimg=image(aempty);
+ %   axis([0 320 0 320], 'square');
+  %  set(emptyimg,'Xdata',[32i 32])
+%    hold on
+%end
